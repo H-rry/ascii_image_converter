@@ -1,8 +1,8 @@
 import PIL.Image
 
 # ASCII_CHARS = ["@", "#", "S", "%", "?", "*","+",";",":",",","."]
-ASCII_CHARS = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'.  ")
-new_width = 60
+ASCII_CHARS = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'.  ") # gradient
+new_width = 60 # edit to change txt width
 
 # resize image according to new width
 def resize_image(image):
